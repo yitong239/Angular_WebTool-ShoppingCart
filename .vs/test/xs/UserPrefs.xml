@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="gh">
+  <MonoDevelop.Ide.Workbench ActiveDocument="angular/ClientApp/src/app/login/login.component.ts">
+    <Files>
+      <File FileName="angular/ClientApp/src/app/nav-menu/nav-menu.component.ts" Line="1" Column="1" />
+      <File FileName="angular/ClientApp/src/app/logout/logout.component.html" Line="5" Column="1" />
+      <File FileName="angular/ClientApp/src/app/logout/logout.component.css" Line="8" Column="1" />
+      <File FileName="angular/ClientApp/src/app/logout/logout.component.ts" Line="21" Column="1" />
+      <File FileName="angular/ClientApp/src/app/logout/logout.component.spec.ts" Line="15" Column="1" />
+      <File FileName="angular/ClientApp/src/app/login/login.component.html" Line="26" Column="1" />
+      <File FileName="angular/ClientApp/src/app/login/login.component.css" Line="28" Column="1" />
+      <File FileName="angular/ClientApp/src/app/login/login.component.ts" Line="40" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.webapi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.angular PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="test" Name="test">
+      <Items>
+        <StartupItem ItemId="{254BC161-00CF-40AA-9866-A4BF030A2BC8}" ItemName="angular" ConfigurationId="Default" />
+        <StartupItem ItemId="{001DD15B-3CFD-4169-8F51-FC30AE5F98ED}" ItemName="webapi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+    <MultiItemSolutionRunConfiguration Id="gh" Name="gh">
+      <Items>
+        <StartupItem ItemId="{254BC161-00CF-40AA-9866-A4BF030A2BC8}" ItemName="angular" ConfigurationId="Default" />
+        <StartupItem ItemId="{001DD15B-3CFD-4169-8F51-FC30AE5F98ED}" ItemName="webapi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

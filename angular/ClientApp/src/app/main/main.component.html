@@ -1,0 +1,64 @@
+<!--<div spanclass="homePro">
+  <ul *ngFor="let p of products; " class="proList">
+    <li class="proInfo">{{p.productName}}</li>
+    <li class="proInfo">{{p.description}}</li>
+    <li class="proInfo">Price: ${{ p.price}}</li>
+    <li><span><img class="picture" src={{p.img}} /></span></li>
+    <li ><input type="number" [(ngModel)]="p.qty" /></li>
+    <li class="proBtn"><button (click)="addtocart(p,p.qty)">add to cart</button></li>
+    <li class="proBrn"><button (click)="delete(p)">delete</button></li>
+  </ul>
+</div>-->
+
+
+
+
+
+
+
+<!--<tbody>
+
+  <tr *ngFor="let p of products; ">
+    <td>{{p.productName}}</td>
+    <td>{{p.description}}</td>
+    <td>{{ p.price}}</td>
+    <td>{{ p.img }}</td>
+    <td><input type="number" [(ngModel)]="p.qty" /></td>
+    <td><button (click)="addtocart(p,p.qty)">add to cart</button></td>
+    <td><button (click)="delete(p)">delete</button></td>
+  </tr>
+</tbody>-->
+
+
+
+
+
+
+
+<div *ngFor="let p of products; " class="homePro">
+  <span class="proInfo">
+    <ul>
+      <li>{{p.productName}}</li>
+      <li>{{p.description}}</li>
+      <li>Price: ${{ p.price}}</li>
+    </ul>
+  </span>
+  <span class="picture">
+    <ul>
+      <li><span><img src={{p.img}} /></span></li>
+    </ul>
+  </span>
+  <span class="proBtn">
+    <ul>
+      <li><input class="quans" type="number" [(ngModel)]="p.qty" /></li>
+      <li><button class="change" (click)="addtocart(p,p.qty)">Add to cart</button></li>
+      <li><button (click)="delete(p)">Delete</button></li>
+    </ul>
+  </span>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</div>

@@ -1,0 +1,25 @@
+<div class="mx-auto" style="width: 30%">
+
+  <div>
+    <div id="userName">
+      <span>Username </span>
+    </div>
+    <input id="uText" [(ngModel)]="userName" type="text" class="form-control">
+  </div>
+  <div>
+    <div id="password">
+      <span>Password </span>
+    </div>
+    <input id="pText" [(ngModel)]="password" type="password"  oncontextmenu="return false" onpaste="return false">
+  </div>
+
+
+  <span id="sign">
+    <button id="in" type="button" (click)="checkIfUserValid()">Sign In</button>
+    
+
+    <button id="up" type="button" (click)="register()">Sign Up</button>
+  </span>
+
+
+</div>

@@ -1,0 +1,38 @@
+
+<!--<tbody>
+  <tr *ngFor="let p of cart">
+    <td>{{p.productName}}</td>
+    <td>{{p.qty}}</td>
+    <td><img src={{p.img}}></td>
+
+    <td><button (click)="delete(p)">delete</button></td>
+
+  </tr>
+</tbody>-->
+
+
+
+<div *ngFor="let p of cart; " class="homePro">
+  <span class="proInfo">
+    <ul>
+      <li>{{p.productName}}</li>
+      <li>Qty: {{ p.qty}}</li>
+    </ul>
+  </span>
+  <span class="picture">
+    <ul>
+      <li><span><img src={{p.img}} /></span></li>
+    </ul>
+  </span>
+  <span class="proBtn">
+    <ul>
+      <li><button class="delete"  (click)="delete(p)">delete</button></li>
+    </ul>
+  </span>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</div>
